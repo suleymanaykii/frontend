@@ -55,9 +55,6 @@
           <button @click="editItem(item.id)">
             <i class="fas fa-edit"></i>
           </button>
-          <button @click="showDetails(item.uuid)">
-            <i class="fas fa-trash-alt ml-3"></i>
-          </button>
         </td>
       </tr>
       </tbody>
